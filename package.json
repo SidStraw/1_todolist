@@ -1,0 +1,11 @@
+{
+  "name": "1_todolist",
+  "version": "1.0.0",
+  "description": "F2E Week 1,todolist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
