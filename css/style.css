@@ -1,0 +1,27 @@
+.warp{
+    background-color:  #E1E1E1;
+    height: 100vh;
+}/* 頁面背景 */
+
+nav.navbar{
+    background-color: #4A90E2;
+}/* nav底色 */
+
+.navbar-dark .navbar-nav .active>.nav-link{
+    border-bottom: #00408B solid 5px;
+}/* nav被選取選項底線 */
+
+input[type=checkbox]{
+    transform: scale(2);
+}/* 放大核取方塊 */
+
+li.list-group-item{
+    background-color: #F2F2F2;
+}
+
+li.list-group-item.starItem{
+    background-color: #FFF2DC;
+}
+i.fa-star{
+    color: #F5A623;
+}

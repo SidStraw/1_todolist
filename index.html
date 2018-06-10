@@ -5,16 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <title>Document</title>
+    <script src="./node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <title>ToDoList</title>
 </head>
 
 <body>
-    <script>
-        $(document).ready(function () {
-            $('body').css('background-color', 'pink');
-        });
-    </script>
+    <div class="warp">
+        <nav class="navbar navbar-expand-sm navbar-dark pb-0">
+            <div class="collapse navbar-collapse container" id="collapsibleNavId">
+                <ul class="navbar-nav mx-auto nav-justified w-100 align-items-end">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">My Tasks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">In Progress</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Completed</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <button type="button" class="btn btn-primary btn-lg btn-block my-4">＋ Add Task</button>
+
+            <ul class="list-group">
+                <li class="text-center list-group-item starItem">
+                    <div class="row align-items-center">
+                        <div class="col-1">
+                            <input type="checkbox">
+                        </div>
+                        <div class="col-9">
+
+                            <div class="row text-left">
+                                <h3 class="col-12 mt-3">完成前端修煉精神時光屋第一週</h3>
+                                <p class="col-12">
+                                    <i class="fa fa-calendar-o fa-2x" aria-hidden="true"></i>
+                                    <span class="mr-3">2018-05-15</span>
+                                    <i class="fa fa-comment-o fa-2x" aria-hidden="true"></i>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="col-1">
+                            <i class="fa fa-star fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                </li>
+                <li class="text-center list-group-item">
+                    <div class="row align-items-center">
+                        <div class="col-1">
+                            <input type="checkbox">
+                        </div>
+                        <div class="col-9">
+
+                            <div class="row text-left">
+                                <h3 class="col-12 mt-3">開始JavaScript 30</h3>
+                                <p class="col-12">
+                                    <i class="fa fa-calendar-o fa-2x" aria-hidden="true"></i>
+                                    <span class="mr-3">2018-05-15</span>
+                                    <i class="fa fa-comment-o fa-2x" aria-hidden="true"></i>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="col-1">
+                            <i class="fa fa-star-o fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-1">
+                            <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
